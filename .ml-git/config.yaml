@@ -1,1 +1,12 @@
-storage:
+datasets:
+  git: git@github.com/Vieira-Carlos/test-mlgit-mlgit-datasets
+labels:
+  git: git@github.com/Vieira-Carlos/test-mlgit-mlgit-labels
+models:
+  git: git@github.com/Vieira-Carlos/test-mlgit-mlgit-models
+storages:
+  s3h:
+    carlos-dataset:
+      aws-credentials:
+        profile: default
+      endpoint-url: http://127.0.0.1:9000
